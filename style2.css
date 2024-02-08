@@ -1,0 +1,45 @@
+.para-abt {
+  font-family: system-ui;
+  font-weight: 400;
+  margin: 1%;
+}
+
+table {
+  border: 1px solid #241f1f;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+table tr,
+td,
+th {
+  background-color: white;
+  border: 1px solid #443e3e;
+  padding: 0.25em;
+}
+
+table th,
+table td {
+  padding: 0.5em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.65em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* general styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
