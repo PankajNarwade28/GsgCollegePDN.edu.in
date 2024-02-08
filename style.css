@@ -4,10 +4,7 @@
   /* box-sizing: border-box */
 }
 
-/* body {
-  max-width: 100%;
-  overflow-x: hidden !important;
-} */
+ 
 body {
   background-color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
@@ -106,6 +103,8 @@ img {
 .topnav {
   overflow: hidden;
   background-color: rgb(233, 153, 67);
+  z-index: 1;
+  margin-bottom: 1%;
 }
 
 .topnav a {
@@ -133,7 +132,7 @@ img {
 }
 
 .dropdown .dropbtn {
-  font-size: 15px;
+  font-size: 1rem;
   border: none;
   outline: none;
   color: rgb(21, 19, 19);
@@ -231,6 +230,9 @@ img {
     text-align: left;
     border-bottom: 0.75px solid rgba(245, 245, 245, 0.667);
   }
+}
+.dis-none {
+  display: none;
 }
 
 /* Image Corasol section */
@@ -362,7 +364,9 @@ p {
   padding: 12px 15px 12px 15px;
   font-weight: 700;
 }
-
+.mar-p {
+  font-weight: lighter;
+}
 .mission {
   margin-top: 0px;
 }
@@ -383,7 +387,7 @@ p {
 
 /* For Section 2 */
 .division2 {
-  /* margin-top: 120px; */
+  margin-top: 70px;
   height: auto;
   width: 100%;
   font-family: "Poppins", sans-serif;
@@ -432,7 +436,7 @@ p {
 
 .subdiv3-1b {
   text-align: justify;
-  height: 200px;
+  height: auto !important;
   width: 55%;
   padding: 20px 20px 20px 20px;
   margin: 2px 2px 2px 2px;
@@ -494,7 +498,7 @@ p {
 
 .mart0 {
   margin-top: 0;
-  height: 350px;
+  height: auto !important;
 }
 
 .hgt {
@@ -526,7 +530,7 @@ p {
 /* division 3 */
 
 .subdiv3-2 {
-  height: 300px;
+  height: auto;
   width: 100%;
   padding: 35px 2px 0px 0px;
   display: flex;
@@ -594,8 +598,8 @@ p {
 .division4 {
   display: flex;
   position: relative;
-  top: 750px;
-  margin: 10px;
+  top: 0px !important;
+  margin: 0px;
   font-family: "Poppins", sans-serif;
   border-bottom: 2px solid white;
 }
@@ -756,7 +760,7 @@ footer {
 }
 .foot {
   position: relative;
-  top: 740px;
+  top: 0px !important;
   height: auto;
   width: 100%;
   /* margin: 5px; */
@@ -777,15 +781,15 @@ footer {
   color: black;
 }
 
-@media (max-width: 1085px) {
+/* @media (max-width: 1085px) {
   .division4 {
-    top: 800px;
+    top: 0px;
   }
   .foot {
     top: 790px;
   }
-}
-@media (max-width: 1020px) {
+} */
+/* @media (max-width: 1020px) {
   .division4 {
     top: 910px;
   }
@@ -800,23 +804,23 @@ footer {
   .foot {
     top: 940px;
   }
-}
-@media (max-width: 875px) {
+} */
+/* @media (max-width: 875px) {
   .division4 {
     top: 980px;
   }
   .foot {
     top: 970px;
   }
-}
-@media (max-width: 832px) {
+} */
+/* @media (max-width: 832px) {
   .division4 {
     top: 1075px;
   }
   .foot {
     top: 1065px;
   }
-}
+} */
 
 @media (max-width: 1150px) {
   .headsec {
@@ -852,7 +856,7 @@ footer {
 
   .division4 {
     flex-wrap: wrap;
-    top: 900px;
+    /* top: 900px; */
     margin: 2px;
   }
 
@@ -869,62 +873,62 @@ footer {
   }
 
   .foot {
-    top: 898px;
+    /* top: 898px; */
     margin: 2px;
     width: 100%;
     height: auto;
   }
 }
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .division4 {
     top: 1300px;
   }
   .foot {
     top: 1298px;
   }
-}
-@media (max-width: 650px) {
+} */
+/* @media (max-width: 650px) {
   .division4 {
     top: 1375px;
   }
   .foot {
     top: 1373px;
   }
-}
-@media (max-width: 596px) {
+} */
+/* @media (max-width: 596px) {
   .division4 {
     top: 1425px;
   }
   .foot {
     top: 1423px;
   }
-}
-@media (max-width: 580px) {
+} */
+/* @media (max-width: 580px) {
   .division4 {
     top: 1260px;
   }
   .foot {
     top: 1258px;
   }
-}
-@media (max-width: 540px) {
+} */
+/* @media (max-width: 540px) {
   .division4 {
     top: 1350px;
   }
   .foot {
     top: 1348px;
   }
-}
-@media (max-width: 510px) {
+} */
+/* @media (max-width: 510px) {
   .division4 {
     top: 1375px;
   }
   .foot {
     top: 1373px;
   }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .division4 {
     top: 1225px;
   }
@@ -980,7 +984,7 @@ footer {
   .foot {
     top: 1618px;
   }
-}
+} */
 
 @media (max-width: 360px) {
   .social {
@@ -1086,7 +1090,7 @@ footer {
     height: 175px;
     width: 95%;
     padding: 3px;
-    line-height: 1.25;
+    line-height: 1.6;
   }
 
   .hgt {
